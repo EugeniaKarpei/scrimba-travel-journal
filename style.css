@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: #F55A5A;
+    padding: 1em; 
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.fa-earth-americas {
+    font-size: 24px;
+}
+
+.logo-container p {
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    margin-left: 7px;
+}
+
+main {
+    padding: 35px 40px;
+}
+
+.travel-post {
+    display: flex;
+    padding: 19px 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.travel-post:last-child {
+    border-bottom: none;
+}
+
+.travel-info-box {
+    color: #2B283A;
+    margin: auto 0 auto 19px;
+}
+
+.location-img {
+    width: 125px;
+    height: 168px; 
+    border-radius: 5px;  
+}
+
+.location {
+    display: flex;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+}
+
+.fa-location-dot {
+    color: #F55A5A;
+}
+
+.location-name {
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    margin-left: 4px;
+}
+
+.google-map-link {
+    color: #918E9B;
+    margin-left: 12px;
+}
+
+.title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 7px 0 14px;
+}
+
+.dates {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    margin-bottom: 9px;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
